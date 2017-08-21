@@ -1,0 +1,92 @@
+#content {
+    margin-top: 30px;
+    border-radius: 2px;
+    background: white;
+    box-shadow: 0px 2px 5px #ccc;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#header {
+    background: #E03137;
+    color: white;
+    margin: 0;
+    height: 90px;
+    line-height: 90px;
+}
+
+#header h1 {
+    display: block;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#nav {
+    padding: 0;
+    margin: 0;
+    background: rgba(224,49,55,0.67);
+    margin-bottom: 15px;
+}
+
+#nav ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 20px
+}
+
+#nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+#nav ul li a {
+    display: block;
+    color: white;
+    height: 30px;
+    line-height: 29px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 300ms;
+}
+
+#nav ul li a:hover,
+.activado {
+    text-decoration: none;
+    background: #E03137;
+    border-bottom: 4px solid yellow;
+}
+
+#main .jumbotron {
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#footer {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    color: gray;
+}
+
+#form-producto label {
+    margin-top: 10px;
+}
+
+.producto_imagen {
+    max-height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.imagen_relleno {
+    background: #ccc;
+    width: 100%;
+    height: 200px;
+}
+
+.imagen_container {
+    width: 100%;
+    overflow: hidden;
+}
